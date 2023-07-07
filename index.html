@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!--Fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/8db8d6eaa2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather</title>
+    <!--Custom CSS-->
+  </head>
+
+  <body>
+    <div
+      class="container"
+      style="
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/778/original/patternpad.png?1688756204);
+      "
+    >
+      <div class="row">
+        <!--primer columna-->
+        <div class="col-md-2 pt-5 m-3"></div>
+        <!--centrado y contenido-->
+        <div
+          class="col-md-6 border border-dark border-1 p-2 m-3 bg-white bg-opacity-25"
+        >
+          <div class="section_container">
+            <!--buscador-->
+            <div class="search_container">
+              <div class="search_bar">
+                <input
+                  class="search_style"
+                  type="text"
+                  placeholder="Search for your city"
+                />
+                <button class="btn btn-success my-2 my-sm-0" type="submit">
+                  Search
+                </button>
+              </div>
+              <!--imagen centrada-->
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/775/original/2995001_cloud_cloudy_sun_weather_summer_icon.png?1688752656"
+                class="rounded d-block mx-auto"
+                style="max-height: 150px;"
+                alt="white sun behind cloud with rain"
+              />
+              <!--descripción de la ciudad-->
+              <div class="description">
+                <p class="text-center fs-2 weight-bold">35°</p>
+                <p class="text-center fs-3 weight-bold">Bogotá</p>
+                <p class="text-center">07/07/23</p>
+              </div>
+              <!--descripción del clima-->
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">Prob. de precipitaciones: 34%</div>
+                  <div class="col-sm">Humedad: 71%</div>
+                  <div class="col-sm">Viento: a 23 km/h</div>
+                </div>
+              </div>
+              <br />
+              <hr />
+              <br />
+              <!--pronostico-->
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-2 d-inline-block">
+                    <div
+                      class="card"
+                      style="background-color: transparent; border: none;"
+                    >
+                      <div class="card-body">
+                        <p class="card-title">Sun</p>
+                        <img
+                          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/773/original/white-sun-behind-cloud-with-rain.512x512.png?1688751825"
+                          class="img-fluid"
+                          alt="..."
+                        />
+                        <p class="card-text">20°| 10°</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-2 d-inline-block">
+                    <div
+                      class="card"
+                      style="background-color: transparent; border: none;"
+                    >
+                      <div class="card-body">
+                        <p class="card-title">Mon</p>
+                        <img
+                          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/773/original/white-sun-behind-cloud-with-rain.512x512.png?1688751825"
+                          class="img-fluid"
+                          alt="..."
+                        />
+                        <p class="card-text">20°| 10°</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-2 d-inline-block">
+                    <div
+                      class="card"
+                      style="background-color: transparent; border: none;"
+                    >
+                      <div class="card-body">
+                        <p class="card-title">Tue</p>
+                        <img
+                          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/773/original/white-sun-behind-cloud-with-rain.512x512.png?1688751825"
+                          class="img-fluid"
+                          alt="..."
+                        />
+                        <p class="card-text">20°| 10°</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-2 d-inline-block">
+                    <div
+                      class="card"
+                      style="background-color: transparent; border: none;"
+                    >
+                      <div class="card-body">
+                        <p class="card-title fs-6">Wen</p>
+                        <img
+                          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/773/original/white-sun-behind-cloud-with-rain.512x512.png?1688751825"
+                          class="img-fluid"
+                          alt="..."
+                        />
+                        <p class="card-text">20°| 10°</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-2 d-inline-block">
+                    <div
+                      class="card"
+                      style="background-color: transparent; border: none;"
+                    >
+                      <div class="card-body">
+                        <p class="card-title">Thu</p>
+                        <img
+                          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/773/original/white-sun-behind-cloud-with-rain.512x512.png?1688751825"
+                          class="img-fluid"
+                          alt="..."
+                        />
+                        <p class="card-text">20°| 10°</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-2 d-inline-block">
+                    <div
+                      class="card"
+                      style="background-color: transparent; border: none;"
+                    >
+                      <div class="card-body">
+                        <p class="card-title">Sun</p>
+                        <img
+                          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/773/original/white-sun-behind-cloud-with-rain.512x512.png?1688751825"
+                          class="img-fluid"
+                          alt="..."
+                        />
+                        <p class="card-text">20°| 10°</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <p class="text-center">#LaGonzalezDev</p>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
